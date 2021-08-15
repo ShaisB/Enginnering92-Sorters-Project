@@ -1,7 +1,5 @@
 package com.sparta.muhammad.sorters;
 
-import com.sparta.muhammad.sorters.binarytree.BinaryTree;
-
 public class BinaryTreeSort {
 
     public static void main(int[] elements){

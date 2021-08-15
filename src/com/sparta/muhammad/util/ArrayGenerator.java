@@ -1,7 +1,5 @@
 package com.sparta.muhammad.util;
 
-import java.util.Arrays;
-
 public class ArrayGenerator {
 
 
