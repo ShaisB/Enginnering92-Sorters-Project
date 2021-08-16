@@ -3,6 +3,7 @@ package com.sparta.muhammad;
 import com.sparta.muhammad.sorters.Sorter;
 import com.sparta.muhammad.util.*;
 
+import java.lang.reflect.Type;
 import java.util.Arrays;
 
 public class Loader {
@@ -22,8 +23,12 @@ public class Loader {
         long startTime = System.nanoTime();
         int[] sortedArray = sorterFactory.sorterStarter(sorterIndex , duplicatedArray);
         long timeTaken = System.nanoTime() - startTime;
+
+        TypeOfSort typeOfSort = new TypeOfSort();
+        String sorterType = typeOfSort.sorterType(sorterIndex);
+
         //displaying the arrays
-        Printer.printer(generatedArray, sortedArray, timeTaken);
+        Printer.printer(generatedArray, sortedArray, timeTaken, sorterType);
 
 
     }
