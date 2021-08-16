@@ -1,6 +1,6 @@
 # Enginnering92-Sorters-Project
 
-##General Use:
+## General Use:
 
 In week 4 I worked on creating sort algorithms and implementing them into a sort manager.  
 The sort manager will ask the user how large an array they would like to generate.
